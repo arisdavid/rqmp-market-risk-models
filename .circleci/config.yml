@@ -46,7 +46,7 @@ jobs:
           name: Run tests and coverage
           command: |
             . venv/bin/activate
-            coverage run --source=credit_models/ -m pytest -v --tb=line tests/
+            coverage run --source=market_risk_models/ -m pytest -v --tb=line tests/
             coverage report
             coverage html
 
